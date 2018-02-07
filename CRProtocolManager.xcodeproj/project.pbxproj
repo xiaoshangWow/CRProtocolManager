@@ -15,6 +15,7 @@
 		3BB869C3202B17A700132467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB869C2202B17A700132467 /* main.m */; };
 		3BB869CD202B17A700132467 /* CRProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB869CC202B17A700132467 /* CRProtocolManagerTests.m */; };
 		3BB869D8202B17A700132467 /* CRProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB869D7202B17A700132467 /* CRProtocolManagerUITests.m */; };
+		3BB869E7202B181800132467 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB869E6202B181800132467 /* CRProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3BB869D3202B17A700132467 /* CRProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB869D7202B17A700132467 /* CRProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManagerUITests.m; sourceTree = "<group>"; };
 		3BB869D9202B17A700132467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB869E5202B181800132467 /* CRProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		3BB869E6202B181800132467 /* CRProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3BB869B4202B17A700132467 /* AppDelegate.m */,
 				3BB869B6202B17A700132467 /* ViewController.h */,
 				3BB869B7202B17A700132467 /* ViewController.m */,
+				3BB869E5202B181800132467 /* CRProtocolManager.h */,
+				3BB869E6202B181800132467 /* CRProtocolManager.m */,
 				3BB869B9202B17A700132467 /* Main.storyboard */,
 				3BB869BC202B17A700132467 /* Assets.xcassets */,
 				3BB869BE202B17A700132467 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB869E7202B181800132467 /* CRProtocolManager.m in Sources */,
 				3BB869B8202B17A700132467 /* ViewController.m in Sources */,
 				3BB869C3202B17A700132467 /* main.m in Sources */,
 				3BB869B5202B17A700132467 /* AppDelegate.m in Sources */,
