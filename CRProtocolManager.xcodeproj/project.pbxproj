@@ -104,12 +104,11 @@
 		3BB869B2202B17A700132467 /* CRProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				3BB869E8202BE3DA00132467 /* CRProtocolManager */,
 				3BB869B3202B17A700132467 /* AppDelegate.h */,
 				3BB869B4202B17A700132467 /* AppDelegate.m */,
 				3BB869B6202B17A700132467 /* ViewController.h */,
 				3BB869B7202B17A700132467 /* ViewController.m */,
-				3BB869E5202B181800132467 /* CRProtocolManager.h */,
-				3BB869E6202B181800132467 /* CRProtocolManager.m */,
 				3BB869B9202B17A700132467 /* Main.storyboard */,
 				3BB869BC202B17A700132467 /* Assets.xcassets */,
 				3BB869BE202B17A700132467 /* LaunchScreen.storyboard */,
@@ -135,6 +134,15 @@
 				3BB869D9202B17A700132467 /* Info.plist */,
 			);
 			path = CRProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		3BB869E8202BE3DA00132467 /* CRProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				3BB869E5202B181800132467 /* CRProtocolManager.h */,
+				3BB869E6202B181800132467 /* CRProtocolManager.m */,
+			);
+			path = CRProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
